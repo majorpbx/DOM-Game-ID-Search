@@ -1,5 +1,5 @@
 # DOM-Game-ID-Search
-Script to quickly find your GameID
+Script to quickly find your GameID in DAT-o-MATIC.
 
 Usage:
 
