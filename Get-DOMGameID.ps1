@@ -49,7 +49,7 @@ $DOM_Response = Invoke-WebRequest -Uri "https://datomatic.no-intro.org/index.php
 $Content  = $DOM_Response.ParsedHtml.IHTMLDocument3_getElementsByTagName("TABLE") | Where-Object { $_.classname -eq "info-table" }
 
 Switch -Regex ($Content.outerHTML) {
-"n=(\d+)`"\>" { $Cart["GameId"] = "$($Matches[1])" }
+"n=(\d+)`"\>" { $Script:GameId = "$($Matches[1])" }
 }
 
 }
