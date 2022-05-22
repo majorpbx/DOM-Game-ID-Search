@@ -1,8 +1,8 @@
 Function Get-DOMGameID {
 Param(
-[Parameter(Mandatory=$true, ValueFromPipeline=$false)]
+[Parameter(Mandatory=$false, ValueFromPipeline=$false)]
 [int]$System = '24', # Nintendo 64
-[Parameter(Mandatory=$true, ValueFromPipeline=$false)]
+[Parameter(Mandatory=$false, ValueFromPipeline=$false)]
 [ValidateSet('1','2','3','4','5','6','7','8','9')]
 [int]$SearchType = '3', # Serials
 [Parameter(Mandatory=$true, ValueFromPipeline=$true)]
