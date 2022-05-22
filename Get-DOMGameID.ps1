@@ -1,4 +1,4 @@
-Function Get-DOMGameId {
+Function Get-DOMGameID {
 Param(
 [Parameter(Mandatory=$true, ValueFromPipeline=$false)]
 [int]$System = '24', # Nintendo 64
